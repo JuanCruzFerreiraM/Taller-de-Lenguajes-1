@@ -1,0 +1,11 @@
+A- Imprime 13,23,33,43,53,63,73,83,93,103.
+
+B-La varible vector se ve modificada ya que tenemos una variable p que apunta a la direccion de memoria del comienzo del
+vector y que nos permite ademas ingresar a ese valor y modificarla, no es incorrecto realizar este acceso, es una forma en la cual se puede
+trabajar con vector.
+
+C-Se deberian imprimir los mismos valores que en la implementacion original.
+
+D-No se realiza ningun cambio en los valores imprimidos.
+
+E-Lo que sucede es que los valores se veran modificados cada dos elementos.

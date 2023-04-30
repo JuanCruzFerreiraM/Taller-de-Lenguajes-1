@@ -1,0 +1,10 @@
+Cuando se imprime el valor &p, es la direccion de memoria en la cual se encuentra la variable puntero
+Cuando se imprime el valor p, se imprime el valor que se encuentra en la direccion &p y que es ademas la direccion de memoria 
+de la variable x.
+Cuando se imprime el valor *p, se imprime el valor al  que en apunta p que es el primer elemento de x.
+Cuando se incrementa el valor p se impimira en el primer caso el mismo valor, luego en p se impimera la direccion de memoria del segundo 
+elemento del array y en el caso de *p se imprimira el valor del segundo elemento del array.
+
+Cuando el puntero p se incrimenta en 1, en realidad lo que paso es que como la apunta a un array de a y cada a tiene un espacio especifico en 
+memoria, pasar al siguiente elemento requiere moverse mas que un valor en memoria, especificamente requiere el espacio especifico que ocupa un
+entero. 
