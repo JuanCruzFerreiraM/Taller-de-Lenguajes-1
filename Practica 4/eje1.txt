@@ -1,0 +1,10 @@
+A- La función malloc permite reservar posiciones contiguas de memorias declarando la cantidad de bytes que queremos 
+reservar en cambio la función calloc nos permite reservar un arreglo en memoria de n posiciones, en la que cada posición
+tiene x cantidad de bytes. La función realloc nos permite expandir o achicar un espacio previamente reservado, pero,
+lo hace reservando un nuevo espacio en memoria y luego liberando el espacio anterior.
+
+B-Se puede usar realloc como malloc siempre y cuando el puntero que le pasamos como parámetro sea nulo. Si invocamos a 
+realloc con el parámetro 0, esta se comporta de igual forma que la función free.
+
+C-El operador sizeof nos permite que la reserva de memoria se haga de forma independiente al dispositivo (Portabilidad), 
+ya que reservamos en función de un tipo base el cual se adapta al dispositivo en el que se encuentra 
