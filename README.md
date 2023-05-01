@@ -4,5 +4,5 @@
 
 <h2>Practicas</h2>
 <ul>
-<li><a url:"https://github.com/JuanCruzFerreiraM/Taller-de-Lenguajes-1/tree/master/Practica%202">Practica 2</a></li> 
+<li><a href="https://github.com/JuanCruzFerreiraM/Taller-de-Lenguajes-1/tree/master/Practica%202">Practica 2</a></li> 
 </ul>
